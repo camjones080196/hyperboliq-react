@@ -43,6 +43,10 @@ To run tests, run the following command
 
 ## How To Use
 
+First open up the file src/store/index.js and replace {YOUR_API_KEY} with your own RapidAPI key
+
+Now run the server
+
 Once the server is running a landing page will be present at <http://localhost:3000/>
 
 - The user can now search for a movie using the search bar.

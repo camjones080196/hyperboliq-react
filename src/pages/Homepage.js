@@ -517,20 +517,20 @@ export default function Homepage() {
             <Accordion.Item eventKey="0" style={{ flex: 1, width: "100%" }}>
               <Accordion.Header>Movie Details</Accordion.Header>
               <Accordion.Body>
-                <div>{movieResult?.Year}</div>
-                <div>{movieResult?.Rated}</div>
-                <div>{movieResult?.Released}</div>
-                <div>{movieResult?.Runtime}</div>
-                <div>{movieResult?.Genre}</div>
-                <div>{movieResult?.Director}</div>
-                <div>{movieResult?.Writer}</div>
-                <div>{movieResult?.Actors}</div>
-                <div>{movieResult?.Language}</div>
-                <div>{movieResult?.Country}</div>
-                <div>{movieResult?.Type}</div>
-                <div>{movieResult?.DVD}</div>
-                <div>{movieResult?.BoxOffice}</div>
-                <div>{movieResult?.Production}</div>
+                <div>Year: {movieResult?.Year}</div>
+                <div>Age Rating: {movieResult?.Rated}</div>
+                <div>Release Date: {movieResult?.Released}</div>
+                <div>Runtime: {movieResult?.Runtime}</div>
+                <div>Genre: {movieResult?.Genre}</div>
+                <div>Director: {movieResult?.Director}</div>
+                <div>Writer: {movieResult?.Writer}</div>
+                <div>Actors: {movieResult?.Actors}</div>
+                <div>Language: {movieResult?.Language}</div>
+                <div>Country: {movieResult?.Country}</div>
+                <div>Type: {movieResult?.Type}</div>
+                <div>DVD Release Date: {movieResult?.DVD}</div>
+                <div>Box Office: {movieResult?.BoxOffice}</div>
+                <div>Production: {movieResult?.Production}</div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
@@ -549,9 +549,9 @@ export default function Homepage() {
               <Accordion.Header>Ratings</Accordion.Header>
               <Accordion.Body>
                 {/* <div>{movieResult?.Ratings}</div> */}
-                <div>{movieResult?.Metascore}</div>
-                <div>{movieResult?.imdbRating}</div>
-                <div>{movieResult?.imdbVotes}</div>
+                <div>Meta Score: {movieResult?.Metascore}</div>
+                <div>IMDB: {movieResult?.imdbRating}</div>
+                <div>IMDB Votes{movieResult?.imdbVotes}</div>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
