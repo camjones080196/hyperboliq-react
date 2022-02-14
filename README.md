@@ -12,13 +12,13 @@ A simple web application that allows a user to search for movies, view informati
 Clone the project
 
 ```bash
-  git clone https://github.com/camjones080196/react-hyperboliq/
+  git clone https://github.com/camjones080196/hyperboliq-react/
 ```
 
 Go to the project directory
 
 ```bash
-  cd react-hyperboliq
+  cd hyperboliq-react
 ```
 
 Install dependencies
