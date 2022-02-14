@@ -59,16 +59,16 @@ Once the server is running a landing page will be present at <http://localhost:3
 
 ## Resources
 
-**Library:** React
+**Library:** React \
 [![react](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 \
-**Components:** React Bootstrap Components
+**Components:** React Bootstrap Components \
 [![react-bootstrap](https://img.shields.io/badge/ReactBootstrap-000?style=for-the-badge&logo=react&logoColor=white)](https://react-bootstrap.github.io/)
 \
-**API:** RapidAPI for IMDB
+**API:** RapidAPI for IMDB \
 [![rapidapi](https://img.shields.io/badge/Rapid--Api-yellow?style=for-the-badge&logo=&logoColor=white)](https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative)
 \
-**State Management:** React Easy-Peasy
+**State Management:** React Easy-Peasy \
 [![easypeasy](https://img.shields.io/badge/React--Easy--Peasy-green?style=for-the-badge&logo=&logoColor=white)](https://easy-peasy.vercel.app/)
 
 ## Authors
