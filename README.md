@@ -1,70 +1,86 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Title
 
-## Available Scripts
+Movie Search and Favourites List
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+A simple web application that allows a user to search for movies, view information about them, and add desired choices to a favourites list
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Run Locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the project
 
-### `npm test`
+```bash
+  git clone https://github.com/camjones080196/react-hyperboliq/
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Go to the project directory
 
-### `npm run build`
+```bash
+  cd react-hyperboliq
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the server
 
-### `npm run eject`
+```bash
+  npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Running Tests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run tests, run the following command
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm test
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How To Use
 
-## Learn More
+Once the server is running a landing page will be present at <http://localhost:3000/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- The user can now search for a movie using the search bar.
+- The results of the search will be displayed below the search bar.
+- The user can toggle between a list view or a card view.
+- When a movie is clicked on a modal will be displayed showing more information about the selected movie.
+- The modal also contains an add to favourites button that will add the selection to the users favourites list.
+- If the selcted movie is already in the user's list a remove from favourites button will be displayed instead.
+- All movies within the users favourites list will be displayed at the top of the page in a carousel
+- Below the carousel is a my favourites button that will take the user to the favourites page
+- The favourites page will display all the movies that the user has favourited.
+- The user can also toggle between a list view or a card view on this page.
+- When a favourite movie is clicked a modal will be displayed showing more information about the favourite movie with a button to remove it from the favourites list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Resources
 
-### Code Splitting
+**Library:** React
+[![react](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+\
+**Components:** React Bootstrap Components
+[![react-bootstrap](https://img.shields.io/badge/ReactBootstrap-000?style=for-the-badge&logo=react&logoColor=white)](https://react-bootstrap.github.io/)
+\
+**API:** RapidAPI for IMDB
+[![rapidapi](https://img.shields.io/badge/Rapid--Api-yellow?style=for-the-badge&logo=&logoColor=white)](https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative)
+\
+**State Management:** React Easy-Peasy
+[![easypeasy](https://img.shields.io/badge/React--Easy--Peasy-green?style=for-the-badge&logo=&logoColor=white)](https://easy-peasy.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Authors
 
-### Analyzing the Bundle Size
+[@CameronJones](https://github.com/camjones080196)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔗 Links
 
-### Making a Progressive Web App
+[![github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camjones080196/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cam-jones-702358114/)
 
-### Advanced Configuration
+## 🚀 About Me
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I'm a front-end developer witha passion for coding, gaming and solving problems
